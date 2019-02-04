@@ -1,0 +1,148 @@
+.container{
+  width: 80vw;
+  margin: auto;
+}
+
+.contenitore-es{
+  width: 100%;
+  background-color: #cecece;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* esercizio 1 */
+
+#red-box1{
+  width: 150px;
+  height: 150px;
+  border: 1px solid red;
+  transition: background 3s;
+}
+
+#red-box1:hover{
+  background-color: red
+}
+
+/* esercizio 2  */
+
+#red-box2{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  transition: 4s;
+}
+
+#red-box2:active{
+  width:100%;
+}
+
+/* esercizio 3 */
+
+#red-box3{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  transition: 1.5s;
+}
+
+#red-box3:hover{
+  border-radius:50%;
+}
+
+/* esercizio 4 */
+
+#red-box4{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  transition: 1s;
+}
+
+#red-box4:hover{
+  opacity: 0;
+}
+
+/* esercizio 5 */
+
+#red-box5{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  transition: 3s;
+}
+
+#red-box5:hover{
+  width:150px;
+  height:150px;
+}
+
+#red-box5:active{
+  width:50px;
+  height:50px;
+}
+
+/* esercizio 6 */
+
+#img1{
+  height: 200px;
+  width:300px;
+}
+
+#img1:hover{
+  filter: grayscale(1);
+}
+
+/* esercizio 7 */
+
+#img2{
+  height: 200px;
+  width:300px;
+  transition: 1s
+}
+
+#img2:hover{
+  filter: sepia(0.5);
+}
+
+/* esercizio 8 */
+
+#img3{
+  height: 200px;
+  width:300px;
+  transition: 2s
+}
+
+#img3:hover{
+  border-radius: 5px;
+  filter: saturate(0.5);
+}
+
+/* esercizio 9 */
+
+#img4{
+  height: 200px;
+  width:300px;
+  transition: 2s
+}
+
+#img4:hover{
+  border-radius: 5px;
+  filter: sepia(0.5);
+  width: 600px;
+  height:300px;
+}
+
+/* esercizio 10 */
+
+.fas{
+  animation-name: "example";
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(90deg);}
+  50%  {transform: rotate(180deg);}
+  75%  {transform: rotate(270deg);}
+  100%  {transform: rotate(360deg);}
+}
